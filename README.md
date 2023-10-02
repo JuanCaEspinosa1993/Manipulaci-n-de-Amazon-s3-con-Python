@@ -3,11 +3,6 @@
 - Puede modificar el código por el nombre de los archivos para los cuales va a trabajar.
 - Es muy importante que genere su propia credencial para hacer código desde la cuenta IAM de AWS
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
 
 # Preparación del ambiente de trabajo
 
