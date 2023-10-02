@@ -7,7 +7,7 @@
 # Preparación del ambiente de trabajo
 
 
-##Crear ambiente virtual
+## Crear ambiente virtual
 
 En una carpeta vacía crea el ambiente virtual con el siguiente código. 
 Pégalo en la terminal y presionar enter para ejecutarlo.
@@ -15,7 +15,7 @@ Pégalo en la terminal y presionar enter para ejecutarlo.
  python3 -m venv myenv
 </pre>
 
-Para Linuxy mac activamos el ambiente creado con:
+Para Linux y mac activamos el ambiente creado con:
 <pre>
 source myenv/bin/activate
 </pre>
@@ -24,6 +24,7 @@ Si estás trabajando en windows:
 <pre>
 myenv/Scripts/activate
 </pre>
+
 ## Instalando librerias
 
 En el archivo requirements.txt se listan las librerias necesarias para poder trabajar correctamente.
@@ -37,14 +38,12 @@ Para Linuxy mac activamos el ambiente creado con:
 pip freeze
 </pre>
 
-
 ## Respecto a AWS
 
 1. Es necesatio que en tu cuenta de AWS crees un grupo de usuarios IAM
 2. Otorgar a ese grupo los permisos "AmazonS3FullAccess".
 3. Crear usuario y añadirlo al grupo creado anteriormente.
 4. Crear las credenciales para código local para ese usuario y mantenerlas segura en el root del sistema operativo.
-
 
 
 # Temario
